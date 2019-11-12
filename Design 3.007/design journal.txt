@@ -1,0 +1,15 @@
+12 nov 2019
+
+ryan tried to play with the PIC so to sense a person walking through a doorway. it works. however, it is going haywire now and like probably not very useful. we are considering 
+
+a) tweaking its sensitivity such that it senses 3m instead of 7m.
+b) swapping to ultrasonic sound instead.
+
+other than that, jx is currently working on the sound system.
+
+I looked up a bit on the TFT LCD screen. apart from there being a lack of documentation, the datasheet is too much information and is jibberish to me at this point. now that ive taken a look at the pins, I see that it connects to a TFT LCD shield and that we bought the wrong shield. Oh well, at least something new we learnt, that different shields have different purposes, and not all shields can and will serve a purpose. My initial thought when buying the shields was that it could be somehow connected. apparently now it looks like i have to either connect 20+ pins manually, or use TFT LCD shield + arduino mega (possibly). I do not know. Screw it I say, I will just not use the screen. I possibly cannot incur new costs if our group wants to buy the TV.
+
+Other than that, we are considering not building the big door and probably the small door too. We are now thinking of renting a big door from ManLin's theatre company, and just emailing the prof and stuff for a screen. We'll also get invision to sponsor us (like the ol' YES days) and use that as a win win case, then building a prototype app for the door. or just using rpi since we are now looking at a hdmi connection lmao.
+
+-joe out- 
+
