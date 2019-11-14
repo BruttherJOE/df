@@ -13,3 +13,17 @@ Other than that, we are considering not building the big door and probably the s
 
 -joe out- 
 
+14 Nov
+elderly want companionship. og problem : healthcare advanced so much that elderly cant even use it
+holes : will elderly even want it? ->solution give companionship 
+
+we want manlin to do voice recording ASAP. then we will focus our efforts on the UI.
+
+ryan suggested that elderly can be motivated to use the app by discounts. daily interaction of the app cna lead to earning of points which results in discounts. this will probably make the elderly want to use the app.
+
+we played even further with the PIC sensor and now it works very well. However, it still senses too far away. we experimented with a fake "card house" casing and we realised that infrared radiation from the human body actually does not pass through such materials.
+
+we are planning to make a casing for the PIC sensor.
+
+i found a tutorial on how to turn on leds via gpio pins on the rpi. im excited, and will learn it asap when i have the time.
+
