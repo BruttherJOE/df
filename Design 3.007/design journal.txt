@@ -11,7 +11,7 @@ I looked up a bit on the TFT LCD screen. apart from there being a lack of docume
 
 Other than that, we are considering not building the big door and probably the small door too. We are now thinking of renting a big door from ManLin's theatre company, and just emailing the prof and stuff for a screen. We'll also get invision to sponsor us (like the ol' YES days) and use that as a win win case, then building a prototype app for the door. or just using rpi since we are now looking at a hdmi connection lmao.
 
--joe out- 
+
 
 14 Nov
 elderly want companionship. og problem : healthcare advanced so much that elderly cant even use it
