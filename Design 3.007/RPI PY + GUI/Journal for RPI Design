@@ -50,13 +50,8 @@ os.system("mpg123 " + file)
 
 
 
-https://pythonbasics.org/python-play-sound/
-
-this is where i got my info. pls refer to it boss.
-
 
 https://projects.raspberrypi.org/en/projects/getting-started-with-guis/7
-
 this is where i can build my gui. please read boss.
 
 
@@ -68,7 +63,7 @@ idle to open the python terminal
 
 21 NOV
 finally... i took 3 days ++ and thought everything didnt work... 
-I managed to play music from python script!!!
+I managed to play music from python script!!! I used back the og playsound() module.
 my mistake was that I installed it with pip- meaning that it installed on python, rather than python3 which is the one im using. my rpi has 2 pythons.
 instead, I finally tried installing it with pip3.
 It used to keep saying module not found although i downloaded it from terminal. Now I finally know why. I can sleep in peace.
