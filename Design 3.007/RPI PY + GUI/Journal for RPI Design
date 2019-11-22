@@ -1,0 +1,94 @@
+so my screen crashed when my family turned off the light in the toilet causing my rpi to crash and my previous file was not saved... i will do ctrl s periodically from now on...
+
+i set up the rpi and installed the gpio script which immediately ran into a host of problems, which were easy to resolve and thus i did. the command was pip install RPI.GPIO. I ended up installing python too.
+
+i plugged in the servos to the gpio pins.
+
+so it didnt work, but dody helped create a .sh file which has something to do with bash, but it completely solved my problem. I guess the problem was that i did not have a compiler. Anyway the servo runs now.
+
+so now i downloaded python3 as well as idle3, and now i no longer need the .sh file. LOL.
+
+
+lay sound in Python
+
+Play sound on Python is easy. There are several modules that can play a sound file (.wav).
+These solutions are cross platform (Windows, Mac, Linux).
+
+The main difference is in the ease of use and supported file formats. All of them should work with Python 3. The audio file should be in the same directory as your python program, unless you specify a path.
+
+Let’s explore the options!
+
+Related course: Complete Python Programming Course & Exercises
+Play sound in Python
+playsound module
+
+The playsound module is a cross platform module that can play audio files. This doesn’t have any dependencies, simply install with pip in your virtualenv and run!
+
+
+from playsound import playsound
+playsound('audio.mp3')
+
+
+from pydub import AudioSegment
+from pydub.playback import play
+
+song = AudioSegment.from_wav("sound.wav")
+play(song)
+
+snack sound kit
+
+The module snack sound kit can play several audio files: WAV, AU, AIFF, MP3, CSL, SD, SMP, and NIST/Sphere.
+
+You can install it with your package manager: ‘apt install python3-tksnack’. For old versions there’s ‘python-tksnack’.
+
+This module depends on Tkinter. That means that to play sound with this module, you’d also have to import the gui module Tkinter. The module doesn’t seem to have been updated in a while.
+
+
+
+file = "file.mp3"
+os.system("mpg123 " + file)
+
+
+
+https://pythonbasics.org/python-play-sound/
+
+this is where i got my info. pls refer to it boss.
+
+
+https://projects.raspberrypi.org/en/projects/getting-started-with-guis/7
+
+this is where i can build my gui. please read boss.
+
+
+dody said something about electron app, and that if i can integrate it into python, it will be quite powerful. but it is hard.
+
+
+idle to open the python terminal
+
+
+21 NOV
+finally... i took 3 days ++ and thought everything didnt work... 
+I managed to play music from python script!!!
+my mistake was that I installed it with pip- meaning that it installed on python, rather than python3 which is the one im using. my rpi has 2 pythons.
+instead, I finally tried installing it with pip3.
+It used to keep saying module not found although i downloaded it from terminal. Now I finally know why. I can sleep in peace.
+
+
+im grateful for dody here
+why did he come classroom at this time????
+im grateful for manlin here too
+why she work till so late ????
+
+
+21 nov 
+my new target is now to make pir activate the airhorn when someone walks through the door!
+
+kind of works but gui disappear and its always constantly high. Dody suggested multithreading.
+the problem with this code is that it gets stuck on the while loop and does not progress.
+I need 2 processes to run at the same time, one to draw the gui and one to check whether if a person is detected or not.
+
+
+
+
+
+

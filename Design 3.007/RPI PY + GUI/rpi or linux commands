@@ -1,0 +1,1 @@
+sudo raspi config [this lets you go into config mode, i could set whether i want the sound to come out through headphone jack or hdmi port.]
